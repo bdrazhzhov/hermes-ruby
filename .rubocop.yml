@@ -1,0 +1,28 @@
+#AllCops:
+#  Include:
+#  - "**/*.gemspec"
+#  - "**/*.podspec"
+#  - "**/*.jbuilder"
+#  - "**/*.rake"
+#  - "**/*.opal"
+#  - "**/Gemfile"
+#  - "**/Rakefile"
+#  - "**/Capfile"
+#  - "**/Guardfile"
+#  - "**/Podfile"
+#  - "**/Thorfile"
+#  - "**/Vagrantfile"
+#  - "**/Berksfile"
+#  - "**/Cheffile"
+#  - "**/Vagabondfile"
+#  Exclude:
+#  - "vendor/**/*"
+#  - "**/schema.rb"
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/BlockLength:
+  Exclude:
+    - "hermes-ruby.gemspec"
+    - "spec/**/*.rb"
